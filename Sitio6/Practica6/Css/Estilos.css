@@ -1,0 +1,64 @@
+/* Diseño flexible  */
+
+*{
+    box-sizing: border-box; /* No se desvorden ni se salgan los contenidos*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.contenedor nav ul li{
+    display: inline;
+    padding-right: 15px;
+    
+}
+
+.contenedor nav a{
+    text-decoration: none;
+}
+
+.contenedor nav a:hover{
+    text-decoration: none;
+    color: rgb(121, 121, 124);
+}
+
+.contenedor .cabecera{
+    padding-top: 100px;
+    min-height: 450px; /*Ajusta tamallo de la imagen*/
+    background-image: url(../img/Grey\ Marbled\ \(2560x1440\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-size: 1.2em;
+    
+}
+
+.izq, .main, .derecho{
+    border-bottom: 1px silver solid;
+    margin: 5px;
+}
+
+
+p{
+    margin: 5px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+
+/* Debemos aplicar una regla para que el contenido se adapte al dispostivo  (medya query ) */
+
+@media (max-width:600px) {
+
+    div, .cabecera{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+body{
+    font-family: Josefin Sans;
+    font-size: 2em;
+    padding-right: 15px;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 3px auto;
+}
+
+nav{
+    background-color: indigo;
+    color: white;
+    opacity: 0.7;
+}
+
+nav ul{
+    padding: 0px;
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: pink;
+}
+
+header{
+    background-image: url('../imagenes/imagen1.jpg');
+   /* height: 400px;*/
+   min-height: 400px;
+   margin-bottom: 30px;
+   text-align: center;
+   color: rgb(136, 110, 207);
+}
+
+#izquierdo{
+    float: left;
+    width: 25%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+
+#principal{
+    float: left;
+    width: 50%;
+}
+
+#derecho{
+    float: left;
+    width: 25%;
+}
+
+#pie{
+    clear: both; /*Anula el sistema de floatmients*/
+    text-align: center;
+}

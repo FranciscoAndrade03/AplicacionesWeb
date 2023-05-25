@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 90%;
+    padding: 10px;
+    
+}
+
+header{
+    border: 20px;
+    float: right;
+}
+
+header div{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+    font-style: italic;
+    width: auto;
+    text-align: center;
+}
+
+article{
+    text-align: center;
+}
+
+img{
+    margin: 20px;
+    height: 400px;
+    text-align: center;
+}
+
