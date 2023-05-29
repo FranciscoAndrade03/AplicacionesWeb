@@ -1,0 +1,23 @@
+
+
+body{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.2em;
+}
+
+a{
+    background-color: rgb(104, 105, 105);
+    font-size: 2em;
+    color: aliceblue;
+}
+
+h1{
+    background-color: rgb(151, 188, 236);
+    color: black;
+    text-align: center;
+    font-size: 2em;
+
+}
